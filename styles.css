@@ -12,9 +12,9 @@
   }
 
   :root {
-      --dark-blue: #312E81;
-      --regular-blue: #4338CA;
-      --sky-blue: #4F46E5;
+      --dark-blue: #3B82F6;
+      --regular-blue:#60A5FA;
+      --sky-blue:#93C5FD;
       --light-blue:
           #DBEAFE;
   }
@@ -37,6 +37,7 @@
       margin: 10px;
       margin: auto;
       font-size: 22px;
+      border-radius: 5px;
   }
 
   input {
