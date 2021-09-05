@@ -42,7 +42,7 @@
   input {
       border: 2px solid var(--dark-blue);
       height: 20px;
-      width: 50%;
+      width: 70%;
       margin: 10px;
       padding: 5px;
   }
@@ -64,5 +64,5 @@
   #result {
       font-weight: bold;
       margin-top: 50px;
-      font-size: 30px;
+      font-size: 25px;
   }
