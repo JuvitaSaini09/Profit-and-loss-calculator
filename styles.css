@@ -37,14 +37,15 @@
       margin: 10px;
       margin: auto;
       font-size: 22px;
-      border-radius: 5px;
+      border-radius: 10px;
   }
 
   input {
       border: 2px solid var(--dark-blue);
       height: 20px;
       width: 70%;
-      margin: 10px;
+      margin: 2px;
+      margin-bottom: 25px;
       padding: 5px;
   }
 
@@ -65,5 +66,5 @@
   #result {
       font-weight: bold;
       margin-top: 50px;
-      font-size: 25px;
+      font-size: 23px;
   }
