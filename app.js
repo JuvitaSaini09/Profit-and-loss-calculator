@@ -14,12 +14,12 @@ function profitLoss(ip, qty, currentP) {
 
     if (ip > currentP) {
         var loss = (ip - currentP) * qty;
-        var lossPercentage = (loss / ip) * 100;
+        var lossPercentage = (loss / (ip*qty)) * 100;
         showResult(`oops!! your loss is ${loss.toFixed(2)} and loss Percentage is ${lossPercentage.toFixed(2)}%`, "#DC2626")
 
     } else if (currentP > ip) {
         var profit = (currentP - ip) * qty;
-        var profitPercentage = (profit / ip) * 100;
+        var profitPercentage = (profit /(ip*qty)) * 100;
         showResult(`congractulations!! Your Profit is ${profit.toFixed(2)} and profit Percentage is ${profitPercentage.toFixed(2)}%`, "green")
 
     } else {
