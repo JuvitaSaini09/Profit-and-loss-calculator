@@ -20,7 +20,7 @@ function profitLoss(ip, qty, currentP) {
     } else if (currentP > ip) {
         var profit = (currentP - ip) * qty;
         var profitPercentage = (profit /(ip*qty)) * 100;
-        showResult(`congractulations!! Your Profit is ${profit.toFixed(2)} and profit Percentage is ${profitPercentage.toFixed(2)}%`, "green")
+        showResult(`congratulations!! Your Profit is ${profit.toFixed(2)} and profit Percentage is ${profitPercentage.toFixed(2)}%`, "green")
 
     } else {
         showResult("No loss !!, No profit !!", "blue")
