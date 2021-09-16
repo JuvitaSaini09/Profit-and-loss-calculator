@@ -32,7 +32,13 @@ function OnclickHandler() {
         var ip = Number(initialPrice.value)
         var qty = Number(stocksQuantity.value)
         var currentP = Number(currentPrice.value)
+        if(ip>0&&qty>0&&currentP>0)
+        {
         profitLoss(ip, qty, currentP);
+        }
+        else{
+            showResult("Enter values greator than zero!!", "red")
+        }
     } else {
         showResult("Enter all the  values !!", "red")
     }
